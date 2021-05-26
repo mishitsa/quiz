@@ -18,7 +18,6 @@ const Questioning = (title) => {
     if (questions) {
         return (
             <div className="abc">
-                {console.log(questions)}
                 {goNext ?
                     <Questions questions={questions} title={title} />
                     :

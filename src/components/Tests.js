@@ -5,7 +5,6 @@ export const Tests = ({ tests }) => {
     if (tests) {
         return (
             <div className="tests">
-                {console.log(tests.map(t => t))}
                 <h1 className="display-3 text-info">Choose the test</h1>
                 {tests.map(test => (
                     <Fragment

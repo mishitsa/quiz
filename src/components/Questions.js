@@ -76,7 +76,6 @@ export const Questions = ({ questions, title }) => {
     if (questions[current] !== undefined) {
         return (
             <div className="wrapper">
-                {console.log(title)}
                 <Modal />
                 <h1 className="text-primary display-2">{title.match.params.name}</h1>
                 <div className="head" key={questions[current].id}>
